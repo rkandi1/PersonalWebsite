@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import classnames from 'classnames';
 
+import ArrowForwardIcon from '@material-ui/icons/ArrowForward';
 import Fade from 'react-reveal/Fade';
 
 import NavList from '../NavList';
