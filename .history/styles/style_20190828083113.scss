@@ -1,0 +1,15 @@
+@import "./Base/settings";
+@import "./Base/base";
+@import "./Components/NavList";
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap');
+
+// Home Page Styles
+@import "./Components/Home/HomeMain";
+
+// About Page styles
+@import "./Components/About/AboutMain";
+
+// We are using the BEM convention
+// Block
+// Element
+// Modifier

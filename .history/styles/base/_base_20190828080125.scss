@@ -1,0 +1,16 @@
+body {
+  font-family: Helvetica, cursive;
+}
+
+.root--mainpage {
+  display: flex;
+  min-height: 100vh;
+  height: 100%;
+}
+
+.root--content {
+  text-align: center;
+  width: 100%;
+  max-width: 100rem;
+  margin: 0 auto;
+}

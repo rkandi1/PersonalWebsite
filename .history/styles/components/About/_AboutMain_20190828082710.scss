@@ -1,0 +1,8 @@
+.about--title {
+  border-top: 3px black solid;
+}
+
+.paragraph--container {
+  @extend %container;
+  margin: 1em $base vw;
+}

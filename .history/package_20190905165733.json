@@ -1,0 +1,40 @@
+{
+  "name": "personal-website",
+  "version": "1.0.0",
+  "description": "The personal website that contains my portofolio",
+  "main": "index.js",
+  "author": "Rohan Kandi",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "server": "live-server --root='/public/Scripts'",
+    "build": "webpack --watch",
+    "dev-server": "webpack-dev-server --PORT=8081"
+  },
+  "dependencies": {
+    "@material-ui/core": "^4.3.3",
+    "@material-ui/icons": "^4.2.1",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "7.1.1",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "classnames": "^2.2.6",
+    "css-loader": "^2.1.1",
+    "live-server": "^1.2.1",
+    "node-sass": "^4.12.0",
+    "normalize.css": "^8.0.1",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-modal": "^3.8.1",
+    "react-router-dom": "^5.0.1",
+    "sass-loader": "^7.1.0",
+    "source-code-pro": "git://github.com/adobe-fonts/source-code-pro.git#release",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.32.2",
+    "webpack-cli": "^3.3.2"
+  },
+  "devDependencies": {
+    "webpack-dev-server": "^3.4.1"
+  }
+}

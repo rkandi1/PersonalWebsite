@@ -1,0 +1,25 @@
+.nav--title {
+  font-weight: bold;
+  font-size: $s-size*1.25;
+  margin: 0 auto;
+}
+
+.nav--description-color {
+  color: blue;
+  margin-bottom: 24px;
+  font-size: $s-size;
+}
+
+.nav--root {
+  animation-fill-mode: both;
+  animation-duration: 1000ms;
+  animation-delay: 0ms;
+  animation-iteration-count: 1;
+  opacity: 1;
+  animation-name: react-reveal-35829393009067-1;
+  background-color: $nav-grey;
+  -ms-flex-align: flex-start;
+  width: 30%;
+  padding-left: 5%;
+  padding-top: 10%;
+}

@@ -1,0 +1,18 @@
+.nav--title {
+  font-weight: bold;
+  font-size: $s-size*1.5;
+  margin: 0 auto;
+}
+
+.nav--description-color {
+  color: blue;
+  margin-bottom: 24px;
+}
+
+.nav--root {
+  background-color: $nav-grey;
+  -ms-flex-align: flex-start;
+  width: 20%;
+  padding-left: 5%;
+  top: 10%;
+}

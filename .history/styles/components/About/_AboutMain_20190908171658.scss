@@ -1,0 +1,17 @@
+.about--title {
+  border-top: 3px black solid;
+  font-family: 'Source Code Pro', monospace;
+  font-size: 2rem;
+}
+.description-container {
+  margin: 2.5*$s-size $base-vw;
+}
+.my-description {
+  line-height: 1.875rem;
+}
+.my-image {
+  // display: block;
+  // margin-left: auto;
+  // margin-right: auto;
+  width: 100%;
+}

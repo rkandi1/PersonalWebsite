@@ -1,0 +1,14 @@
+@import "./Base/settings";
+@import "./Base/base";
+@import "./Components/NavList";
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap');
+@import "./Components/Footer";
+
+// Home Page Styles
+@import "./Components/Home/HomeMain";
+
+// About Page styles
+@import "./Components/About/AboutMain";
+
+// Portofolio Page styles
+@import "./Components/Portofolio/PortofolioMain";

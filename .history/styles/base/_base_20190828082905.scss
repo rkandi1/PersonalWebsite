@@ -1,0 +1,19 @@
+body {
+  font-family: Helvetica, cursive;
+}
+
+%container {
+  width: 100%;
+  max-width: 100rem;
+  margin: 0 $base-vw;
+}
+
+.root--mainpage {
+  display: flex;
+  min-height: 100vh;
+  height: 100%;
+}
+
+.root--content {
+  @extend %container;
+}

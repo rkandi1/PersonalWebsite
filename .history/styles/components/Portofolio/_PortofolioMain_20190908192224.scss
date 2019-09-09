@@ -1,0 +1,16 @@
+.portofolio--content {
+  display: flex;
+  flex-grow: 1;
+}
+.transition-screen {
+  width: 0px;
+  height: 0px;
+}
+.portofolio--icons {
+  width: 2em !important;
+  font-size: $m-size*1.5 !important;
+  margin-top: 30vh;
+  margin-left: 2vw;
+  cursor: pointer;
+  color: black;
+}

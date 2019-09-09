@@ -1,0 +1,14 @@
+@import "./Base/settings";
+@import "./Base/base";
+@import "./Components/NavList";
+
+// Home Page Styles
+@import "./Components/Home/HomeMain";
+
+// About Page styles
+@import "./Components/About/AboutMain";
+
+// We are using the BEM convention
+// Block
+// Element
+// Modifier

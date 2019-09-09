@@ -1,0 +1,20 @@
+.nav--title {
+  font-weight: bold;
+  font-size: $s-size*1.25;
+  margin: 0 auto;
+}
+.nav--description-color {
+  color: blue;
+  margin-bottom: 24px;
+  font-size: $s-size;
+}
+.nav--root {
+  background-color: $nav-grey;
+  -ms-flex-align: flex-start;
+  width: 30%;
+  padding-left: 5%;
+  padding-top: 10%;
+}
+.nav--listitem {
+  color: black;
+}

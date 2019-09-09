@@ -1,0 +1,29 @@
+.nav--title {
+  font-weight: bold;
+  font-size: $s-size*1.5;
+  margin: 0 auto;
+}
+.nav--description-color {
+  color: blue;
+  margin-bottom: 24px;
+  font-size: $s-size*1.25;
+}
+.nav--root {
+  background-color: $nav-grey;
+  -ms-flex-align: flex-start;
+  width: 30%;
+  padding-left: 5%;
+  padding-top: 10%;
+}
+.nav--listitem {
+  color: grey;
+  text-decoration: none;
+}
+.nav--active-listitem {
+  
+}
+.nav--underline {
+  color: black;
+  font-weight: bold;
+  border-bottom: 2.5px solid blue;
+}
